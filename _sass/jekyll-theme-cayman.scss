@@ -27,7 +27,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -89,20 +89,20 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background-color: $header-bg-color;
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  // background-color: $header-bg-color;
+  // background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
-  @include large {
-    padding: 5rem 6rem;
-  }
-
-  @include medium {
-    padding: 3rem 4rem;
-  }
-
-  @include small {
-    padding: 2rem 1rem;
-  }
+  // @include large {
+  //   padding: 5rem 6rem;
+  // }
+  //
+  // @include medium {
+  //   padding: 3rem 4rem;
+  // }
+  //
+  // @include small {
+  //   padding: 2rem 1rem;
+  // }
 }
 
 .project-name {
@@ -176,7 +176,7 @@ a {
   h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: normal;
+    font-weight: bolder;
     color: $section-headings-color;
   }
 

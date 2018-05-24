@@ -2,3 +2,17 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+.page-header img {
+  padding: 20px;
+  margin: auto;
+  @include large {
+    width: 480px;
+  }
+  @include medium {
+    width: 480px;
+  }
+  @include small {
+    width: 100%;
+  }
+}

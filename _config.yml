@@ -20,8 +20,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: esdgradseminar
 google_analytics: UA-116391395-1
-# s3: https://s3-ap-southeast-1.amazonaws.com/barnabemonnot
-# s3_unsecure: http://s3-ap-southeast-1.amazonaws.com/barnabemonnot
+s3: https://s3-ap-southeast-1.amazonaws.com/esdgrad
+s3_unsecure: http://s3-ap-southeast-1.amazonaws.com/esdgrad
 
 # Build settings
 markdown: kramdown
